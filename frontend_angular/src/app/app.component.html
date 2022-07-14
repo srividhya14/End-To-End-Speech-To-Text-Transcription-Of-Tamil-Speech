@@ -1,0 +1,39 @@
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark bg-primary" [containerInside]="false">
+
+  <!-- Navbar brand -->
+  <mdb-navbar-brand><a routerLink="/" class="navbar-brand" href="#">Tamil STT</a></mdb-navbar-brand>
+
+  <!-- Collapsible content -->
+  <links>
+
+    <!-- Links -->
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link waves-light" routerLink="/transcriptionsteps" mdbWavesEffect>Transcription Steps</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" routerLink="/features" mdbWavesEffect>Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" routerLink="/fileUpload" mdbWavesEffect>Try It!</a>
+      </li>
+    </ul>
+    <!-- Links -->
+
+    <!-- Search form -->
+
+  </links>
+  <!-- Collapsible content -->
+
+</mdb-navbar>
+<!--/.Navbar-->
+<router-outlet></router-outlet>
+<!-- <div class="footer">
+  <footer class="text-center text-lg-start bg-light text-muted">
+    <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark bg-primary" [containerInside]="false">
+      <mdb-navbar-brand><a routerLink="/" class="fypLabel navbar-brand">Final Year Project 2022</a>
+      </mdb-navbar-brand>
+    </mdb-navbar>
+  </footer>
+  </div> -->
+<!--/.Navbar-->

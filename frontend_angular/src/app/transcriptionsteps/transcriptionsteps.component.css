@@ -1,0 +1,122 @@
+#card {
+  /* position:fixed; */
+  width: 90%;
+  height: 400px;
+  border-radius: 8px;
+  background-color: rgb(210, 233, 240);
+  margin-top: 5%;
+  margin-left: 5%;
+
+}
+#featuredesc{
+  /* margin-top: 55%; */
+
+}
+#featuresheader{
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+#uploadAudio{
+  width:250px;
+  height:250px;
+  margin-top:10%;
+  margin-Left:28%;
+}
+#tamilwordsteps{
+  width:350px;
+  height:250px;
+  margin-top:10%;
+  margin-Left:15%;
+}
+#featuresheader1{
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  margin-Left:15%;
+
+}
+#transcriptdesc{
+  margin-Left:15%;
+}
+#clickBtn{
+  width:350px;
+  height:250px;
+  margin-top:2%;
+  margin-Left:20%;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 2em;
+}
+#container{
+  display: flex;
+  flex-direction: row;
+}
+#section1{
+    background-color: white;
+    width:250px;
+    height:250px;
+    margin-Top:3%;
+    margin-Left:9%;
+
+}
+#section2{
+    background-color: white;
+    width:250px;
+    height:250px;
+    margin-Top:3%;
+    margin-Left:10%;
+}
+#section1Title{
+   font-weight: 600;
+   font-size: 18px;
+   margin-left: 10%;
+   margin-top: 2%;
+
+}
+#section2Title{
+   font-weight: 600;
+   font-size: 18px;
+   margin-left: 23%;
+   margin-top: 1.2%;
+}
+#featuresparent{
+  margin-left: 25%;
+}
+#section3Title{
+   font-weight: 600;
+   font-size: 18px;
+   margin-left: 30%;
+   margin-top: 18%;
+
+}
+#section1desc
+{
+  margin-left: 5%;
+  margin-top: 2%;
+}
+#section2desc
+{
+  margin-left: 5%;
+  margin-top: 2%;
+}
+#section3desc
+{
+  margin-left: 11%;
+  margin-top: 2%;
+}
+#section3{
+    background-color: white;
+    width:250px;
+    height:250px;
+    margin-Top:3%;
+    margin-Left:10%;
+}
+#cardTitle{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 45%;
+    padding-Top:1.5%;
+}

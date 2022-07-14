@@ -1,0 +1,40 @@
+#introduction{
+  margin-left: 30%;
+  padding-top: 8%;
+  /* border:solid 1px */
+}
+#headingmain {
+  /* position: fixed; */
+  margin-left:10px;
+  font-size: 50px;
+  padding-top: 2%;
+  font-weight: bolder;
+}
+#mainparent{
+  background-color: rgb(210, 233, 240);
+  height:800px;
+  /* display:grid; */
+}
+#transcribeBtn {
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  margin-left:20%;
+  margin-top:5%;
+
+}
+#transcriptionimg {
+  /* position: fixed; */
+  /* top: 32%;
+  left: 26%; */
+  margin-top:30px;
+  margin-right:40px;
+}
+#p1{
+   margin-left:120px;
+
+}
+#p2{
+   margin-left:50px;
+
+}

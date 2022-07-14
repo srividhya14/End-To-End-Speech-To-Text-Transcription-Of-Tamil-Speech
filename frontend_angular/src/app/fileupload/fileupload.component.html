@@ -1,0 +1,14 @@
+<div id="card">
+  <div id="pbLoading" *ngIf="showLoadingSymbol"></div>
+  <!-- <v-file-input truncate-length="15"></v-file-input> -->
+  <form action="http://localhost:5000/" enctype = "multipart/form-data" method="POST" target="hiddenFrame">
+    <label id="header">Upload Tamil Audio</label><br>
+    <input id="fileUpload" name="fileUpload" type="file" accept="audio/*" />
+    <div>
+
+    <button id="submitbtn" type="submit" (click)="toggleLoading()">Get Transcript</button>
+    <!-- <button id="submitbtn" refs="iframed" @click="fn()">Get Transcript</button> -->
+    </div>
+  </form>
+  <iframe id="transcriptframe" name="hiddenFrame" class="hide" value="Hello" (load)="toggleLoading()"></iframe>
+</div>
