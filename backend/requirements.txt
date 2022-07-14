@@ -1,0 +1,6 @@
+deepspeech==0.9.3
+ffmpeg-python
+flask
+uuid
+requests
+scipy
